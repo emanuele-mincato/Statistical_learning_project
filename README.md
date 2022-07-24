@@ -2,7 +2,7 @@
 The purpose of this work is to learn how to use R, RMarkdown and the most famous statistical methodologies to solve real problems.
 ## INTRODUCTION
 
-The goal of this project is to check if a person (potential customer) will take a coupon or not. To do so, we relied on a dataset that includes details about the destination, the number of people in the car, the weather, the temperature, and other useful information that helps us know the problem and predict better.
+The goal of this project is to check if a person (potential customer) will take a coupon or not. To do so, we relied on a dataset that includes details about the destination, the number of people in the car, the weather, the temperature, and other useful information that helps us know the problem and predict better the results.
 We analyzed and found out how these variables interact with each other, which helped us predict if a new customer will take the coupon or not. In order to answer the question mentioned, we tried many models such as Lasso, Ridge and Elastic Net, which are explain better in the RMarkdown file, finally we have chosen the best one to solve our problem.
 
 ## Dataset
