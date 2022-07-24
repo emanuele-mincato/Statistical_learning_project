@@ -21,7 +21,6 @@ Missing values were an obstacle for our analysis. In order to estimate them in t
 
 
 ## MICE
-Implementing MICE: 
 MICE stands for Multivariate Imputation via Chained Equations. It predicts missing values It assumes that they are missing at random (MAR). It creates multiple imputations comparing it to one. Every variable is specified a model which makes the prediction in a variable-by-variable way. In our case, and since our variables are factors, we chose “polyreg” for all our variables’ missing values. MICE function takes the following arguments:
 •	Corresponding dataset’s 
 •	m: number of imputed datasets
